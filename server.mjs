@@ -1,6 +1,10 @@
-import { createServer } from 'http';
+import express from 'express';
+let app = express()
+ 
+app.get('/', (req, res) => {
+res.send('Oke Bang')
+})
 
-createServer((req, res) => {
-  res.write('Hello World!');
-  res.end();
-}).listen(process.env.PORT);
+app.listen(8000, () => {
+console.log('Server Started')
+})
