@@ -2,9 +2,11 @@
   "name": "http-nodejs",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Aiden Bai",
+  "author": "KilersBotz",
   "license": "MIT",
   "scripts": {
     "start": "node server.js"
+  }"dependencies": {
+    "express": "*"
   }
 }
